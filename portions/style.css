@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'ambleregular';
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+	background-color: #A5E39E
+}
+body
+{
+	/*background-color: #A5E39E*/;
+	font-family: 'ambleregular', Arial, sans-serif;
+	width: 900px;
+	margin: auto;
+}
+
+/*#bloc
+{
+	width: 900px;
+	margin: auto;
+}*/
+
+@media all and (max-width: 1024px)
+{
+	body{
+		width: auto;
+	}
+	/*#bloc
+	{
+		width: auto;
+	}*/
+	/*nav
+	{
+		width: auto;
+		text-align: left;
+	}*/
+	/*nav ul
+	{
+		flex-direction: column;
+	}*/
+	nav li
+	{
+		padding-left: 4px;
+	}
+	nav a 
+	{
+		font-size: 3px;
+	}
+	nav a:hover
+	{
+		border-bottom: 0;
+	}
+	#couverture
+	{
+		display: none;
+	}
+	section
+	{
+		flex-direction: column;
+	}
+
+}
+
+section h1, footer h1, nav a 
+{
+	font-family: 'ambleregular', serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/*-------------------Header-------------------*/
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+/*#logo a{*/
+/*	font-size: 0.2em;*/
+/*	color: grey;*/
+/*	text-decoration: none;*/
+/*}*/
+/*#logo a:hover{*/
+/*	color: gold;*/
+/*	border-bottom: 3px solid #760001;*/
+/*}*/
+#titre_principal
+{
+	display: flex;
+	flex-direction: column;
+}
+
+header h1
+{
+	font-size: 10em;
+	font-weight: normal;
+}
+header nav {
+	margin-bottom: 10px;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+}
+
+nav li
+{
+	margin-right: 20px
+}
+
+nav a
+{
+	font-size: 1.4em;
+	color: grey;
+	padding-bottom: 2px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: gold;
+	border-bottom: 3px solid #760001;
+}
+
+#couverture
+{
+	margin-top: 15px;
+	background-image: url("Fotolia_81160853_Subscription_Monthly_M.jpg"); 
+	height: 200px;
+	position: relative;
+	box-shadow: 0px 4px 4px #1C1A19;
+	border-radius: 5px;
+	width: 900px;
+	margin-bottom: 25px;
+}
+
+
+/*-------------------Body-------------------*/
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+#stories {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+    margin-right: 20px;
+    flex: 3;
+}
+
+
+article p
+{
+    font-size: 0.8em;
+}
+/*
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: #CDFBB3;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+#photo_de_Pierre
+{
+	text-align: center;
+}
+#photo_de_Pierre img
+{
+	border: 1px solid #181818;
+}*/
+
+
+
+/*-------------------Footer-------------------*/
+
+
+footer 
+{
+	display: flex;
+	padding-top: 25px;
+}
+
+footer p, footer ul
+{
+	font-size: 0.8em;
+}
+
+footer h1
+{
+	font-size: 1.3em;
+}
+
+#groupe
+{
+	width: 30%
+}
+
+#rien
+{
+	width: 40%
+}
+
+#Contact
+{
+	
+	width: 30%
+}
+
+
